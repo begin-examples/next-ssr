@@ -1,4 +1,7 @@
 let next = require("next");
+//the following are added to satisfy next required dependencies during Begin hydration
+let _react = require("react")
+let _react_dom = require("react-dom")
 let express= require("express")
 let serverless = require('serverless-http');
 
