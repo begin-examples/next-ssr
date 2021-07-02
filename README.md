@@ -1,5 +1,6 @@
 This is a starter template for [Next.js](https://nextjs.org), extended to deploy with [Begin](https://begin.com) that includes server side rendering.
 
+
 ## Deploy your own
 
 [![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/begin-examples/nextjs-ssr)
@@ -53,6 +54,9 @@ The following steps can be used to deploy most Next apps to Begin.com.
   ```javascript
   //index.js
   let next = require("next");
+  //the following are added to satisfy next required dependencies during Begin hydration
+  let _react = require("react")
+  let _react_dom = require("react-dom")
   let express= require("express")
   let serverless = require('serverless-http');
 
