@@ -1,4 +1,4 @@
-#Next.js SSR
+# Next.js SSR
 
 This is a starter template for [Next.js](https://nextjs.org), extended to deploy with [Begin](https://begin.com) that includes server side rendering.
 
